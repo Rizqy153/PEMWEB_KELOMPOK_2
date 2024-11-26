@@ -1,0 +1,94 @@
+/* Style untuk gambar latar belakang di bagian main */
+main {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Mengubah warna teks menjadi putih agar terlihat di atas background */
+    min-height: 100vh;
+}
+
+/* Background untuk halaman about */
+.about-page {
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Background untuk halaman contact */
+.contact-page {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Latar belakang transparan untuk konten utama di about dan contact */
+.main-content-about, .main-content-contact {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+    color: white;
+}
+
+/* Style konten utama di dalam main agar memiliki latar transparan */
+.main-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Latar belakang transparan untuk teks */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Style yang ada sebelumnya */
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.service-item {
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+}
+
+.service-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.service-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #4187f7;
+}
+
+.service-item p {
+    font-size: 1em;
+    color: #333;
+}
